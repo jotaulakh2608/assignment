@@ -140,7 +140,7 @@ export const MainComponent = () => {
 </div>
 
 <div className="lg:flex  ">
-    <div className="lg:w-8/12 bg-white rounded-2xl h-full my-4 lg:mr-5 lg:p-5">
+    <div className="lg:w-8/12 bg-white rounded-2xl shadow-md h-full my-4 lg:mr-5 lg:p-5">
 <div className="flex justify-between items-center ">
     <h1 className='lg:text-lg text-gray-600 text-sm'>
         Today's Delivery
