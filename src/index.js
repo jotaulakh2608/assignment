@@ -4,24 +4,27 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { configureStore } from '@reduxjs/toolkit';
-import sidebarReducer  from './components/sidebarSlice';
+import reducer  from './components/reducer';
 import {Provider} from 'react-redux'
+import {BrowserRouter} from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const store = configureStore({
   reducer:{
-    show: sidebarReducer
+    show: reducer
 
   }
 })
 
 root.render(
+<BrowserRouter>
 
 <Provider store={store}>
 
     <App />
 </Provider>
+</BrowserRouter>
 
   
 );
