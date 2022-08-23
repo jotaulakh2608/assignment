@@ -29,11 +29,11 @@ const [search, setsearch] = useState('')
      <Navbar const search={search} setSearch={setsearch}/>
      <Routes>
 <Route path='/' element={<NewHeadlinePage filtereditems={filtereditems} item={item} search={search}/>}/>
-<Route path='/business' element={<NewHeadlinePage filtereditems={filteredBusiness} item={Business}  search={search}/>}/>
-<Route path='/health' element={<NewHeadlinePage filtereditems={filteredHealth} item={Health}  search={search}/>}/>
-<Route path='/nation' element={<NewHeadlinePage filtereditems={filteredNation} item={Nation}  search={search}/>}/>
-<Route path='/world' element={<NewHeadlinePage filtereditems={filteredWorld} item={World}  search={search}/>}/>
-<Route path='/sports' element={<NewHeadlinePage filtereditems={filteredSports} item={Sports}  search={search}/>}/>
+<Route path='business' element={<NewHeadlinePage filtereditems={filteredBusiness} item={Business}  search={search}/>}/>
+<Route path='health' element={<NewHeadlinePage filtereditems={filteredHealth} item={Health}  search={search}/>}/>
+<Route path='nation' element={<NewHeadlinePage filtereditems={filteredNation} item={Nation}  search={search}/>}/>
+<Route path='world' element={<NewHeadlinePage filtereditems={filteredWorld} item={World}  search={search}/>}/>
+<Route path='sports' element={<NewHeadlinePage filtereditems={filteredSports} item={Sports}  search={search}/>}/>
 
 
      </Routes>
